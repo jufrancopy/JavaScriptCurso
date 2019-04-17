@@ -1,10 +1,10 @@
-const PI = 3.14;
-function uno(){
- 	var gato = "Esto es un gatillo";
- }
- var cadena = "Esta es una cadena";
- var booleano = "true";
- var fecha = new Date();
+// const PI = 3.14;
+// function uno(){
+//  	var gato = "Esto es un gatillo";
+//  }
+//  var cadena = "Esta es una cadena";
+//  var booleano = "true";
+//  var fecha = new Date();
 
 //imprime en la consola
 //console.log(PI);
@@ -198,19 +198,81 @@ var a = function(nombre, uno){
 
 
 
+//Martes de Noche 21:55
+//Convertir variable Numerica a Cadena
+// var a = 15;
+// var b = a.toString();
+// var c = 5;
+//Si sumo b + c dara 115 porque concatena la conversion a cadena
+//document.write(b + c);
+
+//escapes en cadenas
+//var saludo= 'Hola "a" \> todos'
+/*
+	length
+	--------------
+	search
+	indexOf
+	lastIndexOf
+	match
+	substr
+	subString
+	charAt
+	startsWith
+	endsWith
+	includes
+	---------------
+	repeat
+	replace
+	slice
+	split
+*/
+/*
+	Objeto Gato(
+		propiedades = patas, cabeza, cola;
+		metodos = camina, come, maulla;
+	)
+*/
 
 
+//var a = 'Hola a todos';
+//Imprime cantidad de caracteres
+//document.write(a.length);
+
+//var a = 'Hola a todos mis amigos de Youtube';
+//document.write(a.search('amigos '))
+
+//Busca posicion de la ultima palabra
+//var a = "Hola a todos mis amigos de Youtube. Todos felices";
+//var b = a.match(a);
+//document.write( a.match(/todos/gi));
+
+//muestra cadena en un rango.
+//var a = "Hola a todos mis amigos de Youtube, todos alegres";
+//document.write( a.substring(5, 10))
+
+// var a = "Hola a todos mis amigos de Youtube, todos alegres";
+// document.write( a.charAt(8))
 
 
+// var a = "Hola a todos mis amigos de Youtube, todos alegres";
+// document.write( a.endsWith("Hola"))
+
+// var a = "Hola a todos mis amigos de Youtube, todos alegres";
+// document.write( a.includes("Hola", 13))
+
+// var a = "Hola a todos mis amigos";
+// document.write( a.repeat(10))
+
+// var a = "Hola a todos";
+// document.write( a.replace("todos", "mis amigo"))
 
 
+// var a = "Hola a todos";
+// document.write( a.slice(11))
 
-
-
-
-
-
-
+var a = "Lunes martes miercoles jueves";
+document.write( a.slice())
 
 
 
